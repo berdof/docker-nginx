@@ -1,0 +1,16 @@
+nginx-proxy:
+  image: jwilder/nginx-proxy
+  ports:
+    - "80:80"
+    - "443:443"
+  volumes:
+    - /var/run/docker.sock:/tmp/docker.sock
+    - /Users/berdof/Projects/mine/docker/jnet.loc/api/conf.d:/etc/nginx/conf.d
+    # - /Users/berdof/Projects/mine/docker/jnet.loc/api/nginx/configs:/etc/nginx
+    #- /Users/berdof/Projects/mine/docker/nginx/logs:/var/log/nginx
+    #- /Users/berdof/Projects/mine/docker/vhost.d:/etc/nginx/vhost.d
+  #command: "sh -c 'echo \"location ~ ^/(sitemap.xml) { root /var/www/html;}\" > /etc/nginx/conf.d/jnet.loc.conf; forego start -r'"
+    #- /usr/share/nginx/html
+
+
+

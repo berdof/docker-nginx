@@ -1,0 +1,12 @@
+2016/09/05 19:41:00 [emerg] 15#15: unknown log format "vhost" in /etc/nginx/conf.d/jnet.loc.conf:4
+2016/09/05 19:41:44 [warn] 25#25: conflicting server name "jnet.loc" on 0.0.0.0:80, ignored
+2016/09/05 19:41:44 [notice] 25#25: signal process started
+2016/09/05 19:42:21 [warn] 17#17: conflicting server name "jnet.loc" on 0.0.0.0:80, ignored
+2016/09/05 19:43:32 [warn] 19#19: conflicting server name "jnet.loc" on 0.0.0.0:80, ignored
+2016/09/05 19:43:49 [warn] 17#17: conflicting server name "jnet.loc" on 0.0.0.0:80, ignored
+2016/09/05 19:44:14 [warn] 26#26: conflicting server name "jnet.loc" on 0.0.0.0:80, ignored
+2016/09/05 19:44:14 [notice] 26#26: signal process started
+2016/09/05 19:44:14 [error] 26#26: open() "/var/run/nginx.pid" failed (2: No such file or directory)
+2016/09/05 19:44:14 [emerg] 17#17: host not found in upstream "jnet.loc" in /etc/nginx/conf.d/jnet.loc.conf:11
+2016/09/05 19:45:01 [emerg] 17#17: host not found in upstream "jnet.loc" in /etc/nginx/conf.d/jnet.loc.conf:11
+2016/09/05 19:47:14 [emerg] 18#18: host not found in upstream "jnet.loc" in /etc/nginx/conf.d/jnet_loc.conf:11
